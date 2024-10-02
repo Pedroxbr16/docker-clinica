@@ -19,5 +19,5 @@ RUN wget https://get.symfony.com/cli/installer -O - | bash
 RUN curl -sS https://get.symfony.com/cli/installer | bash
 RUN echo "PATH=\"\$HOME/.symfony5/bin:\$PATH\"" >> ~/.bashrc
 RUN export PATH="$HOME/.symfony5/bin:$PATH"
-RUN git config --global user.email "jonaspoli@gmail.com" \ 
-    && git config --global user.name "Jonas Poli"
+RUN git config --global user.email "pjusto@gmail.com" \ 
+    && git config --global user.name "pjusto"
